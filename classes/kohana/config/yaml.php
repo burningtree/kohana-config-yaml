@@ -1,6 +1,6 @@
 <?php defined('SYSPATH') or die('No direct script access.');
 
-class Kohana_Config_Yaml extends Kohana_Config_Reader {
+class Kohana_Config_Yaml extends Config_Reader {
 
 	// Configuration group name
 	protected $_configuration_group;

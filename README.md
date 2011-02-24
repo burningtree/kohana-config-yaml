@@ -3,13 +3,12 @@
 ## Requirements & Installation
 
 1. Install YAML PECL extension: [http://pecl.php.net/package/yaml](http://pecl.php.net/package/yaml)
-2. Download or clone this repository to your Kohana modules directory
-3. Enable the module in your `bootstrap.php` file
-4. Attach the YAML reader:
+2. Download or clone this repository to your Kohana modules directory or add git submodule:
 
-<pre>
-Kohana::$config->attach(Config_YAML);
-</pre>
+	git submodule add git://github.com/burningtree/kohana-config-yaml.git modules/config-yaml
+	git submodule init
+
+3. Enable the module in your `bootstrap.php` file
 
 ## Example YAML file
 
